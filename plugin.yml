@@ -1,0 +1,19 @@
+name: MagicBlocks
+main: no.atc.floyd.bukkit.magicblocks.MagicBlocks
+version: 1.18
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+depend: [WorldGuard]
+description: >
+             Command-based block editing
+commands:
+  regionflag:
+    description: Set a WorldGuard region flag
+    usage: /<command> <region> <flag> <setting>
+  setblocks:
+    description: Set a volumetric range of blocks
+    usage: /<command> <x1> <x2> <y1> <y2> <z1> <z2> <material> [<data>]
+  breakblocks:
+    description: Break a volumetric range of blocks
+    usage: /<command> <x1> <x2> <y1> <y2> <z1> <z2> [<world>]
+
